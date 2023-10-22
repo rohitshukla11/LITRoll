@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightFromBracket, faUser, faBell } from "@fortawesome/free-solid-svg-icons";
 import Link from 'next/link';
 import { Button, Drawer, Card } from "antd";
-import image from './logo.png'
 
 const Navbar = () => {
   const [address, setAddress] = useState(null);
