@@ -104,8 +104,8 @@ export default function QuickMintForm() {
     console.log("Description:", description);
     await uploadToIPFS();
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
-    setOne(false);
-    setTwo(true);
+    // setOne(false);
+    // setTwo(true);
     setLoading(false);
   };
 

@@ -29,11 +29,11 @@ const QuickMint = (props) => {
     ></div>
     <div className="absolute inset-0 bg-black opacity-50"></div>
   </div>
-  <div className="container mx-auto py-16 relative z-10">
+  <div className="container mx-auto relative z-10" style={{padding:"2rem"}}>
     <div className="text-white text-center">
       <h1 className="text-4xl md:text-6xl font-bold mb-4">Quick Mint</h1>
       <p className="text-lg md:text-xl mb-8">
-        MintBoxx empowers digital creators to unleash their creativity
+        Empowering digital creators to unleash their creativity
         by providing the ability to create innovative NFT experiences
         for their audiences.
       </p>
@@ -46,18 +46,19 @@ const QuickMint = (props) => {
       <div className="container mx-auto py-16">
   <div className="grid grid-cols-5 md:grid-cols-5 gap-8">
     <div className="col-span-3">
-      <div className="bg-white shadow-lg rounded-lg p-8 h-full">
+      <div className="bg-white shadow-lg rounded-lg h-full">
    
         <QuickMintForm />
       </div>
     </div>
     <div className="col-span-2 flex justify-center items-center h-2/3">
       <div className="bg-white rounded-lg">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+        {/* <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Quick Mint
-        </h1>
+        </h1> */}
         <img
-          className="w-full"
+          // className="w-full"
+          style={{width:"200px"}}
           src="https://hbobis.files.wordpress.com/2015/12/animation-rocket.gif"
           alt="Rocket"
         />
