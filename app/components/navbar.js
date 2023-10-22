@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faRightFromBracket, faUser, faBell } from "@fortawesome/free-solid-svg-icons";
 import Link from 'next/link';
 import { Button, Drawer, Card } from "antd";
+import image from './logo.png'
 
 const Navbar = () => {
   const [address, setAddress] = useState(null);
@@ -75,7 +76,7 @@ const truncateEthAddress = (addr) => {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             
-            <div className="text-xl font-bold text-gray-800">MintLock</div>
+            <img src="logo.png" alt="logo" style={{width:"200px"}}/>
             {/* <button className="text-white bg-indigo-500 hover:bg-indigo-600 px-4 py-2 rounded-md" onClick={connectWallet}>Connect Wallet</button> */}
             {/* {address ? (
               <>
